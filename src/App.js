@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import OSHeader from './OSHeader';
 
 function App() {
   return (
     <div className="App">
+      <OSHeader />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo}  alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
